@@ -1,0 +1,10 @@
+<launch>
+  <group ns="ns01">
+    <node name="my_talker"   pkg="my_topic" type="talker" />
+    <node name="my_listener" pkg="my_topic" type="listener" output="screen"/>
+  </group>
+  <group ns="ns02">
+    <node name="my_talker"   pkg="my_topic" type="talker" />
+    <node name="my_listener" pkg="my_topic" type="listener" output="screen"/>
+  </group>
+</launch>
